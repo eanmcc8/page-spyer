@@ -15,7 +15,7 @@
     "start:doc": "vite --mode doc",
     "start:client": "vite --mode client",
     "start:server": "page-spy-api",
-    "build": "yarn run build:doc",
+    "build": "yarn run build:start",
     "build:doc": "yarn run generate:doc-records && vite build --mode doc",
     "build:client": "yarn run generate:doc-records && vite build --mode client",
     "build:start": "yarn run generate:doc-records && yarn run build:client && yarn run start:server",
