@@ -9,9 +9,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "upgrade:sdk": "yarn upgrade -P '@eanmcc8/*' -L --ignore-optional",
+    "upgrade:sdk": "yarn upgrade -P '@HuolalaTech/*' -L --ignore-optional",
     "postinstall": "bash scripts/public-files.sh",
     "generate:doc-records": "node scripts/unified/generate-doc-records.mjs",
+    "dev": "yarn run generate:doc-records && yarn run build:client && yarn run start:server",
     "start:doc": "vite --mode doc",
     "start:client": "vite --mode client",
     "start:server": "page-spy-api",
