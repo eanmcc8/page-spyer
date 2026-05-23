@@ -5,11 +5,11 @@
   "homepage": "https://pagespy.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HuolalaTech/page-spy-web.git"
+    "url": "git+https://github.com/eanmcc8/page-spyer.git"
   },
   "license": "MIT",
   "scripts": {
-    "upgrade:sdk": "yarn upgrade -P '@huolala-tech/*' -L --ignore-optional",
+    "upgrade:sdk": "yarn upgrade -P '@eanmcc8/*' -L --ignore-optional",
     "postinstall": "bash scripts/public-files.sh",
     "generate:doc-records": "node scripts/unified/generate-doc-records.mjs",
     "start:doc": "vite --mode doc",
